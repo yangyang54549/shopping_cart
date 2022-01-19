@@ -1,4 +1,4 @@
-module shopping_cart
+module github.com/yangyang54549/shopping_cart
 
 go 1.16
 
