@@ -7,11 +7,12 @@ import (
 )
 
 type ShoppingCart struct {
-	RowId    string
-	Id       uint32
-	Spec     string
-	Num      uint32
-	IsSelect uint8
+	RowId      string
+	Id         uint32
+	Spec       string
+	Num        uint32
+	IsSelect   uint8
+	CreateTime int64
 }
 
 type Cart struct{}
